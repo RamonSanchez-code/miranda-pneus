@@ -1,0 +1,110 @@
+[
+ {
+  "id": "porsche-rs",
+  "brand": "Porsche",
+  "name": "Roda duas peças 5 raios",
+  "image": "/images/rodas/porsche-rs.webp",
+  "credit": {
+   "author": "Brian Snelson from Hockley, Essex, England",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Porsche_RS_wheel_-_Flickr_-_exfordy.jpg"
+  }
+ },
+ {
+  "id": "porsche-cayenne",
+  "brand": "Porsche",
+  "name": "Roda multirraio prata com pinça vermelha",
+  "image": "/images/rodas/porsche-cayenne.webp",
+  "credit": {
+   "author": "Mad House Photography",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Porsche_Cayenne_Wheel_with_Pirelli_Tire.jpg"
+  }
+ },
+ {
+  "id": "porsche-grafite",
+  "brand": "Porsche",
+  "name": "Roda multirraio grafite",
+  "image": "/images/rodas/porsche-grafite.webp",
+  "credit": {
+   "author": "Mark Morgan from Trinidad",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:0786_Porsche_Cayenne_Wheel_(7969580596).jpg"
+  }
+ },
+ {
+  "id": "ferrari-458",
+  "brand": "Ferrari",
+  "name": "Roda 5 raios com pinça de freio",
+  "image": "/images/rodas/ferrari-458.webp",
+  "credit": {
+   "author": "ravas51",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ferrari_458_Italia_Wheel.jpg"
+  }
+ },
+ {
+  "id": "ferrari-speciale",
+  "brand": "Ferrari",
+  "name": "Roda 5 raios preta fosca",
+  "image": "/images/rodas/ferrari-speciale.webp",
+  "credit": {
+   "author": "Tokumeigakarinoaoshima",
+   "license": "CC0",
+   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:The_tire_wheel_of_Ferrari_458_Speciale.JPG"
+  }
+ },
+ {
+  "id": "ferrari-360",
+  "brand": "Ferrari",
+  "name": "Roda estrela 5 raios",
+  "image": "/images/rodas/ferrari-360.webp",
+  "credit": {
+   "author": "Brian Snelson from Hockley, Essex, England",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Ferrari_360_wheel_-_Flickr_-_exfordy.jpg"
+  }
+ },
+ {
+  "id": "renault-captur",
+  "brand": "Renault",
+  "name": "Roda bicolor 5 raios",
+  "image": "/images/rodas/renault-captur.webp",
+  "credit": {
+   "author": "NJo",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Renault_Captur_wheel_closeup.jpg"
+  }
+ },
+ {
+  "id": "renault-arkana",
+  "brand": "Renault",
+  "name": "Roda grafite diamantada",
+  "image": "/images/rodas/renault-arkana.webp",
+  "credit": {
+   "author": "Tokumeigakarinoaoshima",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_tire_wheel_of_Renault_ARKANA_RENAULT_SPORT_LINE_E-TECH_HYBRID_(7AA-LJLH4MH).jpg"
+  }
+ },
+ {
+  "id": "renault-lutecia",
+  "brand": "Renault",
+  "name": "Roda bicolor multirraio",
+  "image": "/images/rodas/renault-lutecia.webp",
+  "credit": {
+   "author": "Tokumeigakarinoaoshima",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:The_tire_wheel_of_Renault_LUTECIA_E-TECH_HYBRID_(5AA-BJAH4MH).jpg"
+  }
+ }
+]
