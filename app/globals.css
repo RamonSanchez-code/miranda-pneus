@@ -98,11 +98,21 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.05; letter-spa
 .hero-static { height: auto; }
 .hero-static .hero-stage { position: relative; }
 
-/* Fallback (sem WebGL / reduced motion) */
-.fb-wheel { position: absolute; left: 50%; top: 50%; width: min(90vw, 90vh); aspect-ratio: 1; translate: -50% -50%; will-change: transform; }
-.fb-wheel svg { animation: spin 14s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
-.fb-glow { position: absolute; inset: 0; background: radial-gradient(circle at 60% 40%, rgba(232,57,43,0.18), transparent 50%); }
+
+/* Sequência de quadros do hero: o vídeo do AMG conduzido pelo scroll, dentro de uma perspectiva 3D */
+.seq { position: absolute; inset: 0; overflow: hidden; --seq-p: 0; --seq-v: 0; }
+.seq-3d { position: absolute; inset: 0; transform-origin: 50% 52%; will-change: transform; backface-visibility: hidden; }
+.seq-mask { position: absolute; inset: 0; --mx: 72%; --my: 60%; --cy: 50%;
+  -webkit-mask-image: radial-gradient(var(--mx) var(--my) at 50% var(--cy), #000 52%, rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(var(--mx) var(--my) at 50% var(--cy), #000 52%, rgba(0,0,0,0) 100%); }
+.seq-mask canvas { display: block; width: 100%; height: 100%; filter: contrast(1.04) saturate(1.05) brightness(0.96); }
+/* brilho que percorre a pintura/aro conforme o scroll avança */
+.seq-sweep { position: absolute; inset: 0; pointer-events: none; mix-blend-mode: soft-light; background: linear-gradient(104deg, transparent 40%, rgba(255,255,255,0.55) 50%, transparent 60%); background-size: 280% 100%; background-position: calc((1 - var(--seq-p)) * 100%) 0; }
+.seq-glow { position: absolute; left: 50%; top: 52%; width: min(130%, 1500px); aspect-ratio: 5 / 2; translate: -50% -50%; pointer-events: none; filter: blur(24px); background: radial-gradient(50% 50% at 50% 50%, rgba(232,57,43,calc(0.05 + var(--seq-v) * 0.12)), transparent 70%); }
+.seq-poster img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  -webkit-mask-image: radial-gradient(72% 62% at 50% 50%, #000 52%, rgba(0,0,0,0) 100%);
+  mask-image: radial-gradient(72% 62% at 50% 50%, #000 52%, rgba(0,0,0,0) 100%); }
 
 /* Seções */
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 90px); align-items: center; }
